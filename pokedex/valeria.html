@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="valeria.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <h1>MAESTRO POKEMON: VALERIA CASTILLO DE LA PAZ</h1>
+    <img src="./pokemon.jpg" width="400px" style="top:0px;">
+    <input type="text" placeholder="Pikachu" id="pokeName" name="pokeName" class="placeholder"> <br>
+    <img src="./pokemaster.png" alt="PokeMaster" id="pokeImg" width="250px" class="pokeimg"><br>
+
+    <div id="pokename" class="pokeimg1" style="left: 350px; top: 200px; font-size: 15px;"></div>
+    <div id="pokeHe" class="pokeimg1" style="left: 100px; top: 220px; font-size: 15px;"></div>
+    <div id="pokeWe" class="pokeimg1" style="left: 100px; top: 240px; font-size: 15px;"></div>
+    <div id="poketype" class="pokeimg1" style="left: 100px; top: 260px; font-size: 15px;"></div>
+    <div id="pokeitem" class="pokeimg1" style="left: 100px; top: 280px; font-size: 15px;"></div>
+    <div id="pokemove1" class="pokeimg1" style="left: 100px; top: 300px; font-size: 15px;"></div>
+    <div id="pokemove2" class="pokeimg1" style="left: 100px; top: 320px; font-size: 15px;"></div>
+    <div id="pokemove3" class="pokeimg1" style="left: 100px; top: 340px; font-size: 15px;"></div>
+    <div id="pokemove4" class="pokeimg1" style="left: 100px; top: 360px; font-size: 15px;"></div>
+
+    <div id="pokeid" class="pokeimg1" style="left: 600px; top: 500px; font-size: 20px; color:yellow;"></div>
+    <div id="pokeorder" class="pokeimg1" style="left: 700px; top: 500px; font-size: 20px; color:orange;"></div>
+    
+    <button onclick="fetchPokemon()" class="boton">Buscar</button>
+    <div class="grafica">
+        <canvas id="miCanvas" width="400" height="300"></canvas>
+    </div>
+
+    <script src="Chart.js"></script>
+    <script src="valeria.js"></script>
+</body>
+</html>
